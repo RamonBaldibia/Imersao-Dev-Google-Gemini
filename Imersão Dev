@@ -1,0 +1,400 @@
+git init
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <style>
+
+      body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('pexels-diego-vivanco-103691-16586151.jpg');
+    background-size: cover; /* ou contain, ou um valor específico em pixels ou porcentagem */
+    background-repeat: no-repeat;
+    background-position: center ;
+    min-height: 100vh; /* Garante que o corpo tenha pelo menos a altura da viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+  h1{ font-size: 2.5rem;}
+  h2{ font-size: 2rem;}
+  h3{ font-size: 1rem;}
+  h4{ font-size: 1rem;}
+  h5{ font-size: 1rem;}
+  h6{ font-size: 1rem;}
+  
+  .text-box {
+  background-color: white;
+  padding: 2rem; /* Ajuste o valor conforme necessário */
+  box-sizing: border-box;
+  margin: 1rem;
+}
+
+.container {
+  display: flex; /* Ou grid, dependendo da sua estrutura */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.centered-div {
+      background-color: lightblue;
+      padding: 10px;
+    }
+.accordion-item {
+  /* Estilos existentes */
+}
+
+.accordion-item.accordion-open p {
+  display: block; /* Mostra o conteúdo */
+} 
+   .header { grid-area: header; }
+    .main { grid-area: main; }
+    footer {
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 80%; /* Largura total da página */
+    position: fixed; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+    </style>
+    
+ <title>Imersão dev+gemini</title>
+</head>
+<body>
+   <header>
+     <h1>Energias Renováveis Nordeste</h1>
+   </header>
+   <main>
+     <section>
+      <div>
+        <article>
+       <h2> O futuro é elétrico! Seja autosustentável em sua propriedade sendo ainda Ecosustentável.
+         O planeta agradece, e seu bolso também. </h2>
+        </article>
+       <div class="text-box">
+        <article>
+         <p><nav>Nos últimos anos a produção de Energia fotovoltaica tem se tornado cada vez mais acessível. Venha fazer parte do futuro!</nav>
+        </p>
+      </div>
+      </article>
+       <div class="text-box">
+         <div class="accordion-item">
+          <article>
+          <h3 class="accordion-header">
+          O que é? 
+          <span class="accordion-icon">&#9662;</span>
+        </h3>
+        <p class="accordion-content">
+            <nav>
+              - A energia solar fotovoltaica é uma tecnologia que converte a luz do sol diretamente em eletricidade. Em propriedades particulares, essa energia é capturada por meio de painéis solares instalados em telhados ou em áreas externas.
+
+              - Como funciona:
+               
+              - Captura da luz solar: Os painéis solares são compostos por células fotovoltaicas, que contêm materiais semicondutores, geralmente silício. Quando a luz solar incide sobre essas células, ela libera elétrons, gerando uma corrente elétrica.
+               - Inversor: A corrente elétrica produzida pelos painéis é contínua, enquanto a energia que utilizamos em nossas casas é alternada. O inversor solar é responsável por converter essa corrente contínua em alternada, permitindo que a energia seja utilizada pelos eletrodomésticos.
+              - Consumo e armazenamento: A energia gerada pode ser consumida imediatamente pelos equipamentos da casa ou, se houver excedente, pode ser armazenada em baterias para uso posterior. Em alguns casos, o excedente pode ser injetado na rede elétrica, gerando créditos de energia para serem utilizados em outros momentos.  
+            </nav>
+          </p>
+        </article>
+       </div>
+       </div>
+       <div class="text-box">
+        <article>
+         <h4>
+           Vantagens da Energia solar
+          </h4>
+         <p>
+            <nav>
+            - Sustentabilidade: É uma fonte de energia limpa e renovável, reduzindo a emissão de gases do efeito estufa.
+            - Independência: Diminui a dependência da rede elétrica convencional, proporcionando maior autonomia energética.
+            - Economia: A longo prazo, a geração própria de energia pode resultar em uma economia significativa na conta de luz.
+            - Valorização do imóvel: A instalação de painéis solares pode aumentar o valor de mercado de um imóvel.   
+            </nav>
+         </p>
+        </article>
+       </div>
+      </div>
+     </section>
+     <section>
+      <article>
+       <h2>
+         Faça parte do desenvolvimento sustentável.
+      </h2>
+    </article>
+       <div class="text-box">
+        <article> 
+        <h3>
+           Componentes do Sistema fotovoltaico
+         </h3>
+         <p>
+            <nav>
+              - Painéis solares: Capturam a energia solar e a convertem em eletricidade.
+              - Inversor: Converte a corrente contínua em alternada.
+              - Estrutura de fixação: Suporta os painéis solares no telhado ou em outras superfícies.
+              - Cabeamento: Conecta os componentes do sistema.
+              - Baterias (opcional): Armazenam o excedente de energia.   
+            </nav>
+         </p>
+        </article>
+      </div>
+      <div class="text-box">
+        <article>
+        <h4>
+           Como dimensionar?  
+        </h4>
+        <p>
+           <nav>
+            - Dimensionar um sistema solar fotovoltaico envolve calcular a quantidade ideal de painéis solares para atender às suas necessidades de consumo de energia. Para isso, é preciso considerar diversos fatores:
+
+- Consumo de energia: Analise suas contas de energia para identificar o seu consumo médio mensal.
+- Irradiação solar: A quantidade de luz solar que incide na sua região influencia diretamente a produção de energia.
+- Espaço disponível: Avalie o espaço disponível no seu telhado ou terreno para instalar os painéis.
+- Tipo de painel: Existem diferentes tipos de painéis com diferentes eficiências.
+- Baterias (opcional): Se você deseja armazenar energia para uso noturno ou em dias nublados, é preciso considerar a capacidade das baterias.
+- Como profissionais especializados em energia solar podemos realizar todos esses cálculos e te apresentar um projeto personalizado.
+           </nav>
+        </p>
+      </article>
+      </div>
+   </div>
+   <div class="text-box">
+    <article>
+     <h5>
+       Incentivos Governamentais  
+     </h5>
+     <p>
+        <nav>
+         - Muitos países, incluindo o Brasil, oferecem incentivos para a instalação de sistemas solares fotovoltaicos, como:
+
+         - Crédito de ICMS: A redução do ICMS sobre a compra dos equipamentos.
+         - Financiamento com juros reduzidos: Linhas de crédito específicas para a instalação de sistemas solares.
+         - Injeção na rede: A possibilidade de injetar o excedente de energia na rede elétrica e receber créditos de energia.  
+        </nav>
+     </p>
+    </article>
+   </div>
+</div>
+<div class="text-box">
+  <article>
+  <h6>
+     Geração de Renda com o Excedente de Produção   
+  </h6>
+  <p>
+     <nav>
+      - Existem duas principais formas de gerar renda com o excedente de energia produzido por um sistema solar:
+
+- Injeção na rede: Ao injetar o excedente na rede elétrica, você recebe créditos de energia que podem ser utilizados em outros momentos. Essa prática é conhecida como geração distribuída.
+- Venda direta: Em alguns casos, é possível vender a energia excedente diretamente para algum consumidor, como um vizinho ou uma empresa.
+     </nav>
+  </p>
+</article>
+</div>
+</div>
+<div class="text-box">
+  <article>
+  <h7>
+     Faça um orçamento conosco 
+  </h7>
+  <p>
+     <nav>
+      - Dimensionar um sistema solar fotovoltaico é um processo que exige conhecimento técnico e deve ser realizado por um profissional especializado. Os incentivos governamentais podem tornar a instalação mais acessível, e a manutenção é relativamente simples. A geração de renda com o excedente de energia é uma possibilidade real! 
+     </nav>
+  </p>
+</article>
+</div>
+     </section>
+   </main>
+   <footer>
+    Produzido com muito trabalho
+   </footer>
+   <script src="app.js"></script>
+   <script>
+
+   </script>
+   <script>
+    const textBoxes = document.querySelectorAll('.text-box');
+    textBoxes.forEach(textBox => {
+       const text = textBox.textContent;
+    const topics = text.split('-');
+    const list = document.createElement('ul');
+    topics.forEach(topic => {
+       const listItem = document.createElement('li');
+    listItem.textContent = topic.trim();
+    list.appendChild(listItem);
+    });
+    textBox.innerHTML = '';
+    textBox.appendChild(list);
+    });
+    // Código para os tópicos expansíveis
+const accordionItems = document.querySelectorAll('.accordion-item');
+
+accordionItems.forEach(item => {
+  const header = item.querySelector('h3');   
+
+  const content = item.querySelector('p');
+
+  header.addEventListener('click', () => {
+    item.classList.toggle('accordion-open');
+  });
+});
+    </script>
+</body>
+ </html>
+' ' ' css
+/* Estilos globais */
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-image: url('pexels-diego-vivanco-103691-16586151.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 40px; /* Espaço em torno do conteúdo */
+}
+
+/* Estilos para todos os cabeçalhos */
+h1, h2, h3, h4 {
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+/* Contêiner principal */
+.container {
+  display: flex; /* Ou grid, dependendo da sua estrutura */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Caixas de texto */
+.text-box {
+  background-color: white;
+  padding: 2rem; /* Ajuste o valor conforme necessário */
+  box-sizing: border-box;
+  margin: 1rem;
+}
+/* Seção de resultados */
+.resultados-pesquisa {
+  width: 40rem;
+  height: 40vh;
+}
+.item-resultado h2 {
+  font-size: 1.1rem;
+}
+
+/* Acordões */
+.accordion-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-content.active {
+  max-height: 100vh;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-item.active .accordion-icon {
+  transform: rotate(180deg);
+}
+
+/* Rodapé */
+footer {
+  background-color: #F5F7F8;
+  color: #45474B;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .text-box {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Estilos para telas menores que 480px */
+  h1 {
+    font-size: 1.8rem;
+  }
+  section input {
+    width: 17rem;
+  }
+}
+' ' '
+' ' ' js
+onsole.log("Olá, Mundo");
+const textBoxes = document.querySelectorAll('.accordion-content');
+const config = {
+    // ...
+  };
+  function createAccordion(accordionItem) {
+    const header = accordionItem.querySelector('.accordion-header');
+    const content = accordionItem.querySelector('.accordion-content');
+  
+    header.addEventListener('click', () => {
+      content.classList.toggle('active');
+    });
+  }
+  
+  // Selecionar todos os itens de acordeão
+  const accordionItems = document.querySelectorAll('.accordion-item');
+  
+  // Aplicar a função para cada item
+  accordionItems.forEach(createAccordion);
+  const textBoxes = document.querySelectorAll('.text-box');
+  
+  textBoxes.forEach(textBox => {
+    const text = textBox.textContent.trim();
+    if (text) {
+      const topics = text.split(new RegExp(config.separators.join('|')));
+  
+      const list = document.createElement('ul');
+      list.style.listStyleType = config.markerType;
+      list.style.padding = config.padding;
+  
+      const fragment = document.createDocumentFragment();
+      topics.forEach(topic => {
+        const listItem = document.createElement('li');
+        listItem.textContent = topic.trim();
+        listItem.setAttribute('role', 'listitem');
+        fragment.appendChild(listItem);
+      });
+      list.appendChild(fragment);
+  
+      textBox.innerHTML = '';
+      textBox.appendChild(list);
+    }
+  });
+  const accordionItems = document.querySelectorAll('.accordion-item');
+
+accordionItems.forEach(item => {
+  const header = item.querySelector('h3');
+  const content = item.querySelector('p');
+
+  header.addEventListener('click', () => {
+    item.classList.toggle('active');
+  });
+});
+' ' '
